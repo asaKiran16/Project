@@ -1,0 +1,145 @@
+header{
+	grid-template-columns: 20% 80%;
+	margin-bottom: 5px;
+}
+header ul{
+	grid-template-columns: repeat(5, 1fr);
+}
+header li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+header nav
+{
+	margin: 20px 0 0 200px ;
+}
+header,footer{
+	background-color: #000;
+}
+.footer,header, header ul,.parts,.four,.part{
+	display: grid;
+}
+
+/* Footer styles */
+.footer, .four{
+	grid-template-columns: repeat(4, 1fr);
+}
+
+
+h3, footer li{
+	list-style-type: circle;
+	color: gray;
+}
+footer span img{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 2px 2px 0px 0px;
+}
+
+footer p{
+	color: gray;
+	margin: 5px 0px 0px 20px ;
+	text-align: justify;
+}
+footer span{
+	color: #fff;
+}
+.mg{
+	margin-bottom: 10px;
+}
+footer li{
+	padding: 5px;
+}
+.space{
+	margin-left: 70px ;
+}
+hr{
+	margin: 0 40px 0 40px ;
+}
+.radius{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.icons{
+	display: flex;
+	justify-content: center;
+}
+.parts{
+	grid-template-columns: 40% 60%;
+	margin: 0 100px 0 100px;
+}
+.part{
+	grid-template-columns: repeat(3,1fr);
+	margin: 0;
+}
+footer .none{
+	list-style-type: none;
+}
+.banner{
+	width: 100%;
+	height: 600px;
+}
+
+/* Block 1 styling */
+.block-1{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 30px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.block-1 img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	margin: 20px;
+}
+.happier-customers,.faster-growth,.connected-network{
+	display: flex;
+	padding: 20px;
+}
+.block1-heading{
+	margin-bottom: 5px;
+}
+.block1-para{
+	margin-top: 0px;
+}
+
+/* block 2 styling */
+.block2-heading{
+	font-weight: bolder;
+	margin: 10px 0px;
+}
+.block-2 img{
+	width: 225px;
+	margin: 20px 0px 0px 300px;
+	border-radius: 10px;
+}
+
+.block-2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* grid-template-columns: 40% 60%; */
+	margin: 20px 0px;
+}
+.block2-content{
+	margin: 20px 0px;
+	padding-left: 20px;
+	font-size: 18px;
+}
+.block2-content p{
+	font-size: 15px;
+	width: 350px;
+	padding: 0px 22px;
+}
+.content{
+	margin-right: 150px;
+}
+.block-2 hr{
+	margin: 0px 200px 0px 40px;
+}
